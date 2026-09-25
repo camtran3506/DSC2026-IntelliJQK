@@ -1,4 +1,5 @@
 weights/
 cache/
 experiments/
-data/processed/processed-contexts-2/
+data/processed/processed-contexts/
+data/raw/selected-contexts/
