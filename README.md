@@ -106,6 +106,7 @@ tail -f logs/dsc2026_7list33.log
 # in the outputs/ directory, run ensemble using RRF (rrf_k = 60):
 jupyter nbconvert --to script "notebook/ensemble_rrf.ipynb"
 python -u notebook/ensemble_rrf.py
+```
 
 ### Run Task 2
 ```bash
