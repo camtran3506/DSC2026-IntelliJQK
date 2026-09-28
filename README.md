@@ -8,16 +8,16 @@ Main repository structure:
 
 | File / Directory | Function |
 | :--- | :--- |
+| `requirements_task1.txt` | Required Python libraries for task 1 |
+| `requirements_task2.txt` | Required Python libraries for task 2 |
 | `data/raw/` | Initial data provided by the Organizers |
 | `data/processed/` | Data after running preprocessing |
 | `logs/` | Directory containing execution logs of the processes |
 | `outputs/` | Output data after running the notebooks |
-| `requirements_task1.txt` | Required Python libraries for task 1 |
-| `requirements_task2.txt` | Required Python libraries for task 2 |
+| `dsc2026_77.ipynb` | Train the document retrieval model (Task 1) using Pointwise BCE loss (scoring each question-document pair independently) |
+| `dsc2026_7list33.ipynb` | Train the document retrieval model (Task 1) using Listwise loss (directly optimizing the ranking order of a group of documents) |
 | `ensemble_rrf.ipynb` | Post-processing: Cross-ensemble the outputs of the 2 retrieval models (BCE and Listwise versions) using the RRF algorithm to optimize the final result list |
 | `7task2_vileg17.ipynb` | Train the text generation model (ViLegalQwen3-1.7B) to automatically generate answers (QA) from the retrieved contexts (Task 2) |
-| `dsc2026_77.ipynb` | Train the document retrieval model (Task 1) using Pointwise BCE loss (scoring each question-document pair independently) |
-| `Dsc2026_7list33.ipynb` | Train the document retrieval model (Task 1) using Listwise loss (directly optimizing the ranking order of a group of documents) |
 
 ## 2. Source Code Publication
 
