@@ -2,6 +2,8 @@
 
 The official repository of team IntelliJQK for the UIT-DSC 2026 competition Subtask 1: Legal Information Retrieval (LegalIR) and Subtask 2: Legal Question Answering (LegalQA). It contains the source code, models, and instructions to reproduce the results for the competition's tasks.
 
+Top 7 Public Test & Top 27 Private Test on Subtask 1.
+
 ## 1. Method Overview
 
 Main repository structure:
